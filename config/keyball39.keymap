@@ -75,10 +75,10 @@
         number_layer {
             label = "NUM";
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                        &kp NUMBER_6          &kp NUMBER_7           &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&none         &none         &none         &kp UP_ARROW  &none                               &kp PLUS              &kp MINUS              &kp ASTERISK  &kp EQUAL     &kp COLON
-&none         &none         &kp LEFT      &kp DOWN      &kp RIGHT                           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COMMA     &kp PERIOD    &kp SLASH
-&kp CAPSLOCK  &trans        &kp TAB       &to 2         &to 0         &kp SPACE  &kp ENTER  &kp BSPC                                                                 &to 0
+&kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4    &kp NUMBER_5                           &kp NUMBER_6          &kp NUMBER_7           &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&none         &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW                        &kp PLUS              &kp MINUS              &kp ASTERISK  &kp EQUAL     &kp COLON
+&kp LC(Z)     &kp LC(X)       &kp LC(C)     &kp LC(V)       &kp PRINTSCREEN                        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COMMA     &kp PERIOD    &kp SLASH
+&kp CAPSLOCK  &trans          &kp TAB       &to 2           &kp LEFT_SHIFT   &kp SPACE  &kp ENTER  &kp BSPC                                                                 &to 0
             >;
         };
 
